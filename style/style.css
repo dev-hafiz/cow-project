@@ -1,0 +1,158 @@
+
+ 
+
+/* Custom color styles  */
+.anto-logo{
+     color: #51493d;
+}
+.heading-clr{
+     color: #ed7d2b;
+}
+.p-class-clr{
+     color: gray;
+}
+.btn-bg-clr{
+     background:#3d65f3;
+}
+.anto-search-btn{
+     color: #ed7d2b;  
+}
+.anto-slider{
+     background: #fff;
+}
+h2:hover{
+     color: #3d65f3;
+     transition: .5s;
+     cursor: pointer;
+}
+
+.card img:hover{
+     transform: scale(1.1);
+     transition: .5s;
+}
+/* MAIN SECTIONS STYLES  */
+
+.background-mid{
+     background: #f0e8dd;
+     padding: 50px 30px;
+     
+}
+.fab:hover{
+     transform: scale(1.3);
+     transition: .5s;
+     color: #f86e0c; 
+}
+/* Cow activites  */
+.single-box {
+     margin: 11px;
+     width: 150px;
+     text-align: center;
+     padding: 41px 41px;
+     background: #f0f0f0;
+     border-radius: 10%;
+     box-shadow: 5px 23px 30px #b8b5b5;
+ }
+ /* Footer  */
+ footer{
+      background: black;
+      margin-top: 200px;
+      padding: 80px;
+      color: lightgray;
+ }
+ h4{
+      color: #ff9600;
+ }
+
+ /* about  */
+ .aboutus {
+     margin-top: 40px;
+ }
+ 
+ .aboutus h4 {
+     font-size: 30px;
+     font-weight: bolder;
+     letter-spacing: 2px;
+ }
+ 
+#social-f{
+     color: #ff9600;  
+}
+.contactus p {
+     line-height: 16px;
+     margin-top: 15px;
+ }
+ 
+ .contactus {
+     margin-bottom: 30px;
+ }
+ 
+ .contactus:hover h4 {
+     letter-spacing: 4px;
+     transition: .5s;
+ }
+ 
+ .icons-socials {
+     font-size: 10px;
+ }
+ button.btn.my-3.text-center.btn-outline-primary:hover {
+     letter-spacing: 3px;
+     transition: .6s;
+ }
+
+ /* contact  */
+ .linkup ul {
+     list-style: none;
+     padding: inherit;
+ }
+ .col.pt-3 h4:hover {
+     letter-spacing: 3px;
+     transition: .5s;
+ }
+ 
+ .linkup li a {text-decoration: none;color: lightgray;}
+ 
+ .linkup li {
+     margin-bottom: 0px;
+ }
+ 
+ .linkup ul li:hover a {
+     margin-left: 20px;
+     transition: .5s;
+ }
+
+ /* emai  */
+ input[type="email"] {
+     outline: none;
+     border: none;
+     padding: 6px 30px;
+     border-radius: 30px;
+     margin: 22px 0px 7px 0px;
+ }
+ 
+ input[type="submit"] {
+     outline: navajowhite;
+     border: none;
+     background: #ff9600;
+     color: white;
+     font-weight: bolder;
+     font-family: sans-serif;
+     padding: 5px 33px;
+     border-radius: 25px;
+ }
+ .bottom-footer {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+     background: #141414;
+     margin-top: 60px;
+     padding: 22px 0px 13px 0px;
+ }
+
+
+ .bottom-footer a {
+     text-decoration: none;
+     color: gray;
+ }
+
+ 
+  

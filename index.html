@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Farmming site</title>
+     <!-- FONT AWESOME LINKUP CDN  -->
+     <script src="https://kit.fontawesome.com/01d367f5d9.js" crossorigin="anonymous"></script>
+     <!-- BOOTSTRAP CSS LINKUP CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- CSS LINKUP CUSTOM  -->
+     <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+     <!-- Header here  -->
+     <header>
+          <!-- NAV  -->
+          <section class="nav-top-start">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                         <a class="navbar-brand d-flex align-items-center" href="#">
+                              <img src="images/logoTop/cow-logo.png" alt="" width="50" height="36" class="d-inline-block align-text-top ">
+                              <span class="fw-bolder anto-logo fs-2">Farm<span class="heading-clr">i</span>ng<span class="heading-clr fw-bolder fs-1">O</span>x</span>
+                            </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active fs-5" aria-current="page" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5" href="#aboutus">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5" href="#recipe">Recipe </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link fs-5" href="#team-member">Team-member</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          
+                          <button class="btn anto-search-btn fs-3" type="submit"><i class="fas fa-search-dollar"></i></button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+          </section>
+          <!-- CAROUSEL  -->
+          <section class="container pt-5" id="home">
+            <div id="carouselExampleControls" class="carousel slide anto-slider" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                      <h1 class="fw-bolder heading-clr">50 Year's<br>
+                        Total survey of Humbbah!</h1>
+                        <h5 class="p-class-clr">not to worried abot the cow for that we taken a long term to fixed the major side effect</h5>
+                          <button class="btn mt-3 btn-bg-clr text-white">BUY NOW</button>
+                    </div>
+                    <div class="col-lg-6">
+                      <img  src="images/cowphoto/cow4.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                      <h1 class="fw-bolder heading-clr">ORGANIC<br>
+                        MILK PRODUCTS</h1>
+                        <h5 class="p-class-clr">Free delivery of fresh milk and
+                          cheese from the local farm
+                          </h5>
+                          <button class="btn  mt-3 btn-bg-clr text-white">BUY NOW</button>
+                    </div>
+                    <div class="col-lg-6">
+                      <img  src="images/cowphoto/cow3.jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-lg-6">
+                      <h1 class="fw-bolder heading-clr">FRESH
+                        <br>
+                        DAIRY PRODUCE</h1>
+                        <h5 class="p-class-clr">Providing locals and guests with wholesome milk products</h5>
+                          <button class="btn mt-3 btn-bg-clr text-white">BUY NOW</button>
+                    </div>
+                    <div class="col-lg-6">
+                      <img  src="images/cowphoto/cow1 (1).jpg" class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+     </header>
+     <!-- Main here  -->
+     <main>
+      <!-- Cards sections  -->
+      <section  class="cards sections my-5 container ">
+        <h1 class="text-center fw-bolder heading-clr pt-5">WELCOME TO OUR FARM</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pt-5 g-4">
+          <div class="col">
+            <div class="card overflow-hidden shadow-lg">
+              <img src="images/cards/card1.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title mt-3 text-center fw-bolder">OUR PRODUCTS</h5>
+                <p class="card-text">We provide our customers with a wide variety of dairy products, from organic milk to butter and cheese.</p>
+                <button type="button" class="btn my-3 text-center btn-outline-primary">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card overflow-hidden shadow-lg">
+              <img src="images/cards/card2.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title mt-3 text-center fw-bolder">WHY ORGANIC?</h5>
+                <p class="card-text">We believe it’s the best way to inspire our community to try useful & natural products, which we hope they like.</p>
+                <button type="button" class="btn my-3 text-center btn-outline-primary">READ MORE</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card overflow-hidden shadow-lg">
+              <img src="images/cards/card3.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body ">
+                <h5 class="card-title mt-3 text-center fw-bolder">WORKING PROCESS</h5>
+                <p class="card-text">Our working process includes a few elements based on both traditional and innovative dairy farming approaches.</p>
+                <button type="button" class="btn my-3 text-center btn-outline-primary">READ MORE</button>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+      <!-- ENERGY BEEF  -->
+      <section class="Energy-beef container" id="recipe">
+        <h1 class="text-center fw-bolder heading-clr py-5">Take Recipe Eat Energy beef</h1>
+        <div class="row row-cols-1 mb-4 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card border-0 shadow-lg overflow-hidden rounded">
+              <img src="images/energy-meal/pack4.jpg" class="card-img-top border-0" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-center fw-bolder heading-clr">$35<small>us</small></h2>
+                <h2 class="text-center"><i class="fas fa-cart-plus  fw-bolder heading-clr"></i></h2>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card overflow-hidden border-0 shadow-lg rounded">
+              <img src="images/energy-meal/pack1.jpg" class="card-img-top border-0" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-center fw-bolder heading-clr">$40<small>us</small></h2>
+                <h2 class="text-center"><i class="fas fa-cart-plus  fw-bolder heading-clr"></i></h2>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card overflow-hidden border-0 shadow-lg rounded">
+              <img src="images/energy-meal/pack3.jpg" class="card-img-top border-0" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-center fw-bolder heading-clr">$50<small>us</small></h2>
+                <h2 class="text-center"><i class="fas fa-cart-plus  fw-bolder heading-clr"></i></h2>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card overflow-hidden border-0 shadow-lg rounded">
+              <img src="images/energy-meal/pack2.jpg" class="card-img-top border-0" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-center fw-bolder heading-clr">$27<small>us</small></h2>
+                <h2 class="text-center"><i class="fas fa-cart-plus  fw-bolder heading-clr"></i></h2>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Choes meal  -->
+      <section class="container my-5 pt-5">
+        <div class="row row-cols-lg-3 row-cols-md-1 row-cols-sm-1">
+          <div class="col">
+          <div>
+            <h2 class="pt-5 fw-bolder ">MODERN FARM</h2>
+            <p class="pb-5">Milk Farm is a fully innovative farm, which combines modern methods of dairy production with traditions.</p>
+          </div>
+          <div>
+            <h2 class="fw-bolder">NO PESTICIDES</h2>
+            <p>Our farmers avoid pesticides in our dairy products, which makes our produce more nutritious.</p>
+          </div>
+          </div>
+          <div class="col">
+            <img src="images/energy-meal/milk.png" alt="">
+          </div>
+          <div class="col">
+            <div class="ms-5">
+              <h2 class="pt-5 fw-bolder ">100% ORGANIC</h2>
+              <p class="pb-5">We preserve the traditions of organic production in all dairy products we produce and offer. </p>
+            </div>
+            <div class="ms-5">
+              <h2 class="fw-bolder">NATURAL FEED</h2>
+              <p>We use natural feed for our cows so that they could produce high-quality organic milk for you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BACKGROUND MID  -->
+      <section class="background-mid my-5">
+        <h1 class="fw-bolder text-white text-center">SUMMER!THE PERFECT DURATION </h1>
+        <div class="d-flex justify-content-center ">
+          <div><i class="fas fa-signal fa-4x my-4 mx-5"></i></div>
+          <div><i class="fas fa-database fa-4x my-4 mx-5"></i></div>
+          <div><i class="fas fa-barcode fa-4x my-4 mx-5"></i></div>
+        </div>
+      </section>
+      <!-- COWS ACTIVITES  -->
+      <section class="container">
+        <div class="row pt-5 pb-5 d-flex align-items-center justify-content-between row-cols-lg-2 row-cols-md-1 row-cols-1">
+          <div class="col">
+            <img class="img-fluid" src="images/cowphoto/cowactivites.jpg" alt="">
+          </div>
+          <div class="col">
+            <div>
+              <h2 class="fs-4 fw-bolder pt-5 ps-5" >INTEGRATING INNOVATIONS INTO DAIRY TRADITIONS</h2>
+              <p class="ps-5">
+                Our mission is to create a sustainable, environmentally and technologically advanced dairy farm. We adhere to traditions of raising cows naturally combined with innovations.</p>
+            </div>
+            <div class=" d-flex mx-5">
+              <div class="single-box">
+                <h1>$ 500</h1>
+              </div>
+              <div class="single-box">
+                <h1>$ 700</h1>
+              </div>
+              <div class="single-box">
+                <h1>$ 900</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Members  -->
+      <section class="container mb-5" id="team-member">
+        <div class="row my-5 row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card rounded-3 shadow-lg p-5 border-0 h-100">
+              <img src="images/Team-member/mem1.jpg" class="card-img-top rounded-circle img-fluid " alt="...">
+              <div class="card-body text-center">
+                <h2 class="card-title my-3">RICHARD PETERSON</h2>
+                <p class="card-text mt-2">Richard has a wide experience in every dairy farming aspect as he’s been in the industry for over 20 years.</p>
+              </div>
+              <div class="social-icon text-center ">
+                <span><i class="fab fa-2x fa-linkedin me-4"></i></span>
+                <span><i class="fab fa-2x fa-facebook-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-twitter-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-reddit-square me-4"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg p-5 border-0 h-100">
+              <img src="images/Team-member/mem2.jpg" class="card-img-top rounded-circle img-fluid " alt="...">
+              <div class="card-body text-center">
+                <h2 class="card-title my-3">SUSAN ANDERSON</h2>
+                <p class="card-text mt-2">Susan is one of our primary farmers who has a vast expertise in working with cattle and traditional farming.</p>
+              </div>
+              <div class="social-icon text-center ">
+                <span><i class="fab fa-2x fa-linkedin me-4"></i></span>
+                <span><i class="fab fa-2x fa-facebook-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-twitter-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-reddit-square me-4"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-lg p-5 border-0 h-100">
+              <img src="images/Team-member/mem3.jpg" class="card-img-top rounded-circle img-fluid " alt="...">
+              <div class="card-body text-center">
+                <h2 class="card-title my-3">STEVE RUFFALO</h2>
+                <p class="card-text mt-2">Steve joined our farm 5 years ago when we were a small local farm. He helped us establish a vast supply chain.</p>
+              </div>
+              <div class="social-icon text-center ">
+                <span><i class="fab fa-2x fa-linkedin me-4"></i></span>
+                <span><i class="fab fa-2x fa-facebook-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-twitter-square me-4"></i></span>
+                <span><i class="fab fa-2x fa-reddit-square me-4"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STICKY POINTS  -->
+      <section class="my-5 ">
+        <div class="row  bg-secondary p-5 g-4 mt-5  row-cols-md-2 row-cols-lg-5 row-cols-1">
+          <div class="col d-flex justify-content-center">
+            <img src="images/sticky-point/sticky1.png" alt="">
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img src="images/sticky-point/sticky2.png" alt="">
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img src="images/sticky-point/sticky3.png" alt="">
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img src="images/sticky-point/sticky4.png" alt="">
+          </div>
+          <div class="col d-flex justify-content-center">
+            <img src="images/sticky-point/sticky5.png" alt="">
+          </div>
+        </div>
+      </section>
+     </main>
+     <!-- Footer at the Bottom  -->
+     <footer>
+      <div class="container">
+        <div class="row  mt-5  row-cols-md-2 row-cols-lg-4 row-cols-1">
+          <div class="col">
+            <div>
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/logoTop/cow-logo.png" alt="" width="50" height="36" class="d-inline-block align-text-top ">
+                <span class="fw-bolder anto-logo fs-2">Farm<span class="heading-clr">i</span>ng<span class="heading-clr fw-bolder fs-1">O</span>x</span>
+              </a>
+            </div>
+            <div class="aboutus" id="aboutus">
+              <h4>About Us</h4>
+              <p>Our mission is to create a sustainable, environmentally.</p>
+            </div>
+            
+          </div>
+          <div class="col pt-3">
+            <div class="contactus">
+              <h4>Contact Us</h4>
+              <p><i id="social-f" class="fas fa-phone-alt"></i> (+99) 007 559 22</p>
+              <p><i id="social-f" class="fas fa-envelope"></i> exampleemail@yahoo.com</p>
+            </div>
+           <div class="icons-socials">
+            <span><i id="social-f" class="fab  fa-2x fa-linkedin me-4"></i></span>
+            <span><i id="social-f"  class="fab fa-2x fa-facebook-square me-4"></i></span>
+            <span><i id="social-f"  class="fab fa-2x fa-twitter-square me-4"></i></span>
+            <span><i id="social-f"  class="fab fa-2x fa-reddit-square me-4"></i></span>
+          </div>
+           </div>
+           <div class="col pt-3">
+            <div class="linkup">
+             <h4>QUICK LINKS</h4>
+             <ul>
+               <li><a href="#">Our Farmers</a></li>
+               <li><a href="#">New Products</a></li>
+               <li><a href="#">Top Sellers</a></li>
+               <li><a href="#">About Our Farm</a></li>
+               <li><a href="#">Cheese and Curds</a></li>
+               <li><a href="#">Milk Products</a></li>
+               <li><a href="#">Butter</a></li>
+               <li><a href="#">Yoghurt</a></li>
+               <li><a href="#">Milk Cream </a></li>
+             </ul>
+            </div>
+           </div>
+           <div class="col pt-3">
+             <div>
+               <h4>Hey! put your mail</h4>
+               <input type="email" name="" placeholder="Enter your Email" id="">
+               <br>
+               <input type="submit" value="Send Here">
+             </div>
+           </div>
+          </div>
+         
+         
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <a class="text-center">&copy;okshihafiz | 2021 FAQ privacy policy act</a>
+      </div>
+     </footer>
+     
+     <!-- JS BUNDEL LINKUP CDN  -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
